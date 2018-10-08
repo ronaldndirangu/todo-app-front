@@ -26,8 +26,6 @@ class AddItem extends Component {
   }
 
   render() {
-    console.log(this.state);
-    console.log(this.props);
     return (
       <Todo onChange={this.onChange} onClick={this.onClick} />
     );
